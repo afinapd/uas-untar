@@ -42,6 +42,7 @@ dependencies:
   http: ^0.13.5
   json_annotation: ^4.7.0
   expandable_text: any
+  intl: ^0.17.0
 
 
 dev_dependencies:
