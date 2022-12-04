@@ -4,7 +4,7 @@ import 'package:uts/DataModels/users.dart';
 
 Future<List<Users>> getStory() async {
   //replace your restFull API here.
-  String url = "https://api.unsplash.com/search/photos?client_id=pVzm6xSeY08Xa9lfhC2gHwq7ZLMfXzv_6oQGcbfiB-g&per_page=10&query=actors";
+  String url = "https://api.unsplash.com/search/photos?client_id=pVzm6xSeY08Xa9lfhC2gHwq7ZLMfXzv_6oQGcbfiB-g&per_page=10&query=public-figure";
   final response = await http.get(Uri.parse(url));
 
   var responseData = json.decode(response.body)["results"];
